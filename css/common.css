@@ -248,6 +248,12 @@ p {
     }
 }
 
+/* Adjustment to keep footer at bottom of any page with a div of class
+'row' as the main content container*/
+.row {
+    min-height: 100%;
+}
+
 /* FOOTER */
 
 .social-media {
@@ -274,4 +280,5 @@ p {
 footer {
     clear: both;
     background: black;
+    bottom: 0;
 }
